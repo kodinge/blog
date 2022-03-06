@@ -3,18 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="kodinge is a blog that discusses web and mobile programming, such as html, css, javascript, node.js, react.js and many more."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="icon" href="logo/logo-16.png" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
     <title>Kodinge &dash; Programming</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img src="logo/logo-64.png" alt="Logo" />
+      <a class="logo" href="#">
+        <img class="logo-img" src="logo/logo-64.png" alt="Logo" />
+        <span class="logo-text">Kodinge</span>
       </a>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Features</a></li>
+          <li><a class="nav-link" href="#">Poduct Tour</a></li>
+          <li><a class="nav-link" href="#">Resources</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li><a class="nav-link" href="#">Pricing</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main></main>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="hero-heading">The Kodinge Blog</h1>
+            <p class="hero-description">
+              tips and tricks to help your programming skills improve
+            </p>
+          </div>
+          <div class="hero-img-box">hero image</div>
+        </div>
+      </section>
+
+      <section class="section-most">
+        <div class="container">
+          <h2 class="heading-most">Most Recent Posts</h2>
+          <hr />
+        </div>
+      </section>
+    </main>
 
     <footer class="footer"></footer>
   </body>
